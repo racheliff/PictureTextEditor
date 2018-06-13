@@ -6,9 +6,9 @@ var currImage;
 var fileName;
 var oReader = new FileReader();
 
-if(!localStorage.getItem('startingDatePictureProject')) {
+/*if(!localStorage.getItem('startingDatePictureProject')) {
     localStorage.setItem('startingDatePictureProject', (new Date()).getTime().toString());
-}
+}*/
 function fileSelected() {
 
     // get selected file element
